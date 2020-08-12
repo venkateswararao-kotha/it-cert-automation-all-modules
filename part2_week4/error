@@ -1,0 +1,12 @@
+student-03-d3ab4c90e931@linux-instance:~/it-cert-automation-practice/Course3/Lab4$ git push origin improve-username-behavior
+Username for 'https://github.com': venkateswararao-kotha
+Password for 'https://venkateswararao-kotha@github.com':
+To https://github.com/venkateswararao-kotha/it-cert-automation-practice.git
+ ! [rejected]        improve-username-behavior -> improve-username-behavior (non-fast-forward)
+error: failed to push some refs to 'https://github.com/venkateswararao-kotha/it-cert-automation-practice.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+

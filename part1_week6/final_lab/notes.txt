@@ -1,0 +1,57 @@
+In this lab, you'll change the username of your coworker Jane Doe from "jane" to "jdoe"
+in compliance with company's naming policy. The username change has already been done.
+However, some files that were named with Jane's previous username "jane" haven't been updated yet.
+
+To help with this, you'll write a bash script and a Python script that will take care of the
+necessary rename operations.
+
+student-01-c61dee7eafbe@linux-instance:~/data$ ls -lrt
+total 4
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 pchow_pic_05162019.jpg
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 kwood_profile_04022017.doc
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 kwood_pic_04032017.jpg
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 janez_profile_11042019.doc
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 jane_profile_07272018.doc
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 jane_contact_07292018.csv
+-rw-rw-rw- 1 root root 412 Jun 29 20:30 list.txt
+
+
+student-01-c61dee7eafbe@linux-instance:~/data$ pwd
+/home/student-01-c61dee7eafbe/data
+student-01-c61dee7eafbe@linux-instance:~/data$ cat list.txt
+001 jane /data/jane_profile_07272018.doc
+002 kwood /data/kwood_profile_04022017.doc
+003 pchow /data/pchow_profile_05152019.doc
+004 janez /data/janez_profile_11042019.doc
+005 jane /data/jane_pic_07282018.jpg
+006 kwood /data/kwood_pic_04032017.jpg
+007 pchow /data/pchow_pic_05162019.jpg
+008 jane /data/jane_contact_07292018.csv
+009 kwood /data/kwood_contact_04042017.csv
+010 pchow /data/pchow_contact_05172019.csv
+
+
+
+after findJane.sh and changeJane.py execution completes
+
+o/p:
+student-01-c61dee7eafbe@linux-instance:~/scripts$ pwd
+/home/student-01-c61dee7eafbe/scripts
+student-01-c61dee7eafbe@linux-instance:~/scripts$ ls -lrt
+total 12
+-rwxr-xr-x 1 student-01-c61dee7eafbe student-01-c61dee7eafbe 195 Jun 29 20:35 findJane.sh
+-rw-r--r-- 1 student-01-c61dee7eafbe student-01-c61dee7eafbe 122 Jun 29 20:36 oldFiles.txt
+-rwxr-xr-x 1 student-01-c61dee7eafbe student-01-c61dee7eafbe 627 Jun 29 20:46 changeJane.py
+
+student-01-c61dee7eafbe@linux-instance:~/data$ pwd
+/home/student-01-c61dee7eafbe/data
+student-01-c61dee7eafbe@linux-instance:~/data$ ls -lrt
+total 4
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 pchow_pic_05162019.jpg
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 kwood_profile_04022017.doc
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 kwood_pic_04032017.jpg
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 jdoe_profile_07272018.doc
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 jdoe_contact_07292018.csv
+-rw-rw-rw- 1 root root   0 Jun 29 20:30 janez_profile_11042019.doc
+-rw-rw-rw- 1 root root 412 Jun 29 20:30 list.txt
+

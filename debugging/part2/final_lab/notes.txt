@@ -1,0 +1,74 @@
+below are the files in the data/prod folder
+
+alpha is one folder under prod but there are many folders under /data/prod/
+like ..
+student-02-d6c48599806a@linux-instance:~/data/prod$ pwd
+/home/student-02-d6c48599806a/data/prod
+student-02-d6c48599806a@linux-instance:~/data/prod$ ls -lrt
+total 28
+drwxrwxrwx 3 student-02-d6c48599806a root 4096 Jul 16 16:42 alpha
+drwxrwxrwx 3 student-02-d6c48599806a root 4096 Jul 16 16:42 delta
+drwxrwxrwx 2 student-02-d6c48599806a root 4096 Jul 16 16:42 beta
+drwxrwxrwx 3 student-02-d6c48599806a root 4096 Jul 16 16:42 gamma
+drwxrwxrwx 2 student-02-d6c48599806a root 4096 Jul 16 16:42 omega
+drwxrwxrwx 5 student-02-d6c48599806a root 4096 Jul 16 16:42 kappa
+drwxrwxrwx 2 student-02-d6c48599806a root 4096 Jul 16 16:42 sigma
+
+
+student-02-d6c48599806a@linux-instance:~/data/prod/alpha/videos$ ls -lrt
+total 80
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul  9 21:39 001.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 004.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 003.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 002.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 008.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 007.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 006.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 005.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 009.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0012.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0011.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0010.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0015.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0014.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0013.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0019.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0018.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0017.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0016.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a root 1084 Jul 16 16:42 0020.mp4
+student-02-d6c48599806a@linux-instance:~/data/prod/alpha/videos$ pwd
+/home/student-02-d6c48599806a/data/prod/alpha/videos
+
+
+after runingg the script  ./scripts/dailysync.py
+=====================================================
+
+
+student-02-d6c48599806a@linux-instance:~/data/prod_backup/alpha$ ls -lrt
+total 4
+drwxrwxrwx 2 student-02-d6c48599806a student-02-d6c48599806a 4096 Jul 16 16:42 videos
+student-02-d6c48599806a@linux-instance:~/data/prod_backup/alpha$ cd videos
+student-02-d6c48599806a@linux-instance:~/data/prod_backup/alpha/videos$ ls -lrt
+total 80
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul  9 21:39 001.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 004.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 003.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 002.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 008.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 007.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 006.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 005.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 009.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0012.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0011.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0010.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0015.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0014.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0013.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0019.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0018.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0017.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0016.mp4
+-rw-rw-rw- 1 student-02-d6c48599806a student-02-d6c48599806a 1084 Jul 16 16:42 0020.mp4
+

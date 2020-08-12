@@ -1,0 +1,7 @@
+Copy below file to desktop and double click to Open Below FIle
+to understand all the steps executed for this lab.
+
+Very good Lab : i have written the code in ticky_check.py
+
+/Users/lavanyayerramneni/PycharmProjects/PythonLeaning/coursera/part1_week7/final_lab/CR Log Analysis Using Regular Expressions | Qwiklabs.web1G
+archive

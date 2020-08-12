@@ -1,0 +1,37 @@
+commit 0fcb30da1188084fc8e3d42b5a0b5254b9214341
+Author: Venkateswararao <venkatababu@gmail.com>
+Date:   Thu Jul 9 16:56:38 2020 +0000
+
+    Revert "Rename item variable to food_item."
+
+    This reverts commit 21cf376832fa6eace35c0bf9e4bae4a3400452e9.
+
+commit 701789f7626c6b075ef2b1928dcfd54c408506f7
+Author: Venkateswararao <venkatababu@gmail.com>
+Date:   Thu Jul 9 16:51:08 2020 +0000
+
+    Adding a line in the output describing the utility of food_count.py script
+
+commit 21cf376832fa6eace35c0bf9e4bae4a3400452e9
+Author: Alex Cooper <alex_cooper@gmail.com>
+Date:   Wed Jan 8 14:09:39 2020 +0530
+
+    Rename item variable to food_item.
+
+commit b8d00e33237b24ea1480c363edd972cf4b49eedf
+Author: Alex Cooper <alex_cooper@gmail.com>
+Date:   Wed Jan 8 14:08:35 2020 +0530
+
+    Added file food_question.py that returns how many others in the list like that same food.
+
+commit 8d5a3189b88d273ef08286e5074b5e38d616da21
+Author: Alex Cooper <alex_cooper@gmail.com>
+Date:   Wed Jan 8 14:07:15 2020 +0530
+
+    Added file food_count.py that returns a list of each food and the number of times each food appears in favorite_foods.log file.
+
+commit 0a202e03e0356d2b5c323e51905d3d06e5e2d0ed
+Author: Alex Cooper <alex_cooper@gmail.com>
+Date:   Wed Jan 8 14:06:21 2020 +0530
+
+    Added file favorite_foods.log that contains list of foods.
